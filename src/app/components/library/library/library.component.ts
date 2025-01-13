@@ -4,11 +4,10 @@ import { Book } from '../../../models/book';
 import { BookComponent } from '../book/book.component';
 
 @Component({
-  selector: 'app-library',
-  standalone: true,
-  imports: [CommonModule, BookComponent],
-  templateUrl: './library.component.html',
-  styleUrl: './library.component.css'
+    selector: 'app-library',
+    imports: [CommonModule, BookComponent],
+    templateUrl: './library.component.html',
+    styleUrl: './library.component.css'
 })
 
 export class LibraryComponent {
